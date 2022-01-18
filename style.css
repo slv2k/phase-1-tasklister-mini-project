@@ -7,12 +7,79 @@ html {
 body {
   min-height: 100%;
   min-width: 100%;
-  background: linear-gradient(white, gray);
+  background: #FFFFFF;
 }
 
 button {
   font-size: 7px;
   margin-left: 10px;
+}
+
+input {
+  border: none;
+  margin-left: 15px;
+  background-color: #FDF9F6;
+  border-bottom: 1px solid #333;
+}
+
+h1 {
+  color: #8C271E;
+}
+
+#submitbutton {
+  margin: 0 auto;
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #F2EBE3;
+  border-radius: 5px;
+  color: gray;
+}
+
+#submitbutton:hover {
+  background-color: #D8C4AB;
+  color: #FDF9F6;
+}
+
+button {
+  border: none;
+  background: rgba(57, 92, 107, 0.30);
+  margin-left: 30px;
+}
+
+button:hover {
+  background: gray;
+}
+
+li {
+  color: #FDF9F6;
+  text-align: left;
+  list-style-type: circle;
+  padding-left: 1px;
+  margin-bottom: 15px;
+}
+
+li > li {
+  list-style-type: none;
+  margin-left: 5px;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+div > form {
+  line-height: 30px;
+}
+
+select {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  margin: 0 auto;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: -20px;
 }
 
 #main-content {
@@ -21,18 +88,15 @@ button {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: 1px solid #333;
-  background: rgba(255, 255, 255, 0.3);
+  background: #FDF9F6;
   padding: 15px 20px 18px 18px;
-  border-radius: 5px;
-  box-shadow: 2px 5px 5px #333;
 }
 
 #list {
-  margin: 10px;
-  border: 1px solid #333;
-  background: rgba(255, 255, 255, 0.75);
-  padding: 15px 20px 18px 18px;
-  border-radius: 5px;
-  box-shadow: 2px 5px 5px #333;
+  margin: 20px;
+  background: rgba(57, 92, 107, 0.5);
+  padding: 5px 20px 18px 18px;
+  color: #395C6B;
+  width: 300px;
+  text-align: center;
 }
